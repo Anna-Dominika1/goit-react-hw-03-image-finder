@@ -1,0 +1,50 @@
+.Searchbar {
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 1100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 64px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #fff;
+  background-color: #c2c190;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  font: inherit;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: white;
+  padding-left: 40px;
+}
+
+.input::placeholder {
+  font: inherit;
+  font-size: 20px;
+}
+
+.form {
+  position: relative;
+  margin: 1em;
+}
+.button {
+  position: absolute;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 3px;
+}
